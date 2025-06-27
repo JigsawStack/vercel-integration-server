@@ -1,11 +1,8 @@
 import { env } from "../env";
 
 export interface CreateVercelAccountRequest {
-	vercel_user_id: string;
 	email: string;
 	name?: string;
-	vercel_team_id?: string;
-	avatar_url?: string;
 }
 
 export interface CreateVercelAccountResponse {
